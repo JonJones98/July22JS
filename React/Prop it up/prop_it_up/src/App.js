@@ -4,6 +4,7 @@ import PersonCard from './components/PersonCard';
 function App() {
   return (
     <div className="App">
+      <button onClick={()=> alert("HELP!! I am a button and I have been pressed!")}>Click Me</button>
       <PersonCard
       firstName='Jonathan' 
       lastName='Jones'

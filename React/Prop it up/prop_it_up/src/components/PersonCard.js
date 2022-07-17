@@ -2,7 +2,7 @@ import React from 'react'
 
 const PersonCard =(props)=>{
    const{ firstName, lastName, hairColor, age}=props
-    return(
+   return(
         <div>
             <h1>
                 {firstName} {lastName}
